@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version> 3.3.5</version>
+    <version>3.3.5</version>
   </parent>
 
   <groupId>com.mycompany.app</groupId>
@@ -17,11 +17,11 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>microservice-gateway</module>
     <module>microservice-eureka</module>
     <module>microservice-config</module>
     <module>microservice-student</module>
     <module>microservice-course</module>
+    <module>microservice-gateway</module>
   </modules>
 
   <properties>
